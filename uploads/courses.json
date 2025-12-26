@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "CSBS01T01",
+    "name": "Programming Fundamentals (Sem 1)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS01T02",
+    "name": "ICT (Sem 1)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS01T03",
+    "name": "Calculus (Sem 1)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS01T04",
+    "name": "English Composition (Sem 1)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS01T05",
+    "name": "Applied Physics (Sem 1)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS01L01",
+    "name": "Programming Fundamentals Lab (Sem 1)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS01L02",
+    "name": "ICT Lab (Sem 1)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS02T01",
+    "name": "Object Oriented Programming (Sem 2)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS02T02",
+    "name": "Discrete Structures (Sem 2)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS02T03",
+    "name": "Linear Algebra (Sem 2)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS02T04",
+    "name": "Communication Skills (Sem 2)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS02T05",
+    "name": "Pakistan Studies / Islamic Studies (Sem 2)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS02L01",
+    "name": "OOP Lab (Sem 2)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS02L02",
+    "name": "CS Practice 2-2 Lab (Sem 2)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS03T01",
+    "name": "Data Structures & Algorithms (Sem 3)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS03T02",
+    "name": "Digital Logic Design (Sem 3)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS03T03",
+    "name": "Probability & Statistics (Sem 3)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS03T04",
+    "name": "Technical Writing (Sem 3)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS03T05",
+    "name": "Computer Organization & Assembly (Sem 3)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS03L01",
+    "name": "Data Structures Lab (Sem 3)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS03L02",
+    "name": "Digital Logic Design Lab (Sem 3)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS04T01",
+    "name": "Operating Systems (Sem 4)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS04T02",
+    "name": "Database Systems (Sem 4)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS04T03",
+    "name": "Design & Analysis of Algorithms (Sem 4)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS04T04",
+    "name": "Software Engineering (Sem 4)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS04T05",
+    "name": "Differential Equations (Sem 4)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS04L01",
+    "name": "Operating Systems Lab (Sem 4)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS04L02",
+    "name": "Database Systems Lab (Sem 4)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS05T01",
+    "name": "Computer Networks (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS05T02",
+    "name": "Theory of Automata (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS05T03",
+    "name": "Artificial Intelligence (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS05T04",
+    "name": "Web Engineering (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS05T05",
+    "name": "Professional Practices (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS05L01",
+    "name": "Computer Networks Lab (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS05L02",
+    "name": "Web Engineering Lab (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS05L03",
+    "name": "AI Lab (Sem 5)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS06T01",
+    "name": "Compiler Construction (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS06T02",
+    "name": "Information Security (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS06T03",
+    "name": "Parallel & Distributed Computing (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS06T04",
+    "name": "Mobile App Development (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS06T05",
+    "name": "Research Methodology (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS06L01",
+    "name": "Compiler Construction Lab (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS06L02",
+    "name": "Information Security Lab (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS06L03",
+    "name": "Mobile App Development Lab (Sem 6)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS07T01",
+    "name": "Final Year Project I (Sem 7)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS07T02",
+    "name": "Machine Learning (Sem 7)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS07T03",
+    "name": "Cloud Computing (Sem 7)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS07T04",
+    "name": "Software Quality Assurance (Sem 7)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS07T05",
+    "name": "Elective I (Sem 7)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS07L01",
+    "name": "Machine Learning Lab (Sem 7)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS07L02",
+    "name": "Cloud Computing Lab (Sem 7)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS08T01",
+    "name": "Final Year Project II (Sem 8)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS08T02",
+    "name": "Data Science (Sem 8)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS08T03",
+    "name": "Internet of Things (Sem 8)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS08T04",
+    "name": "Elective II (Sem 8)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "CSBS08L01",
+    "name": "Data Science Lab (Sem 8)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "CSBS08L02",
+    "name": "IoT Lab (Sem 8)",
+    "dept": "CS",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS01T01",
+    "name": "Programming Fundamentals (Sem 1)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS01T02",
+    "name": "ICT (Sem 1)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS01T03",
+    "name": "Calculus (Sem 1)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS01T04",
+    "name": "English Composition (Sem 1)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS01T05",
+    "name": "Applied Physics (Sem 1)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS01L01",
+    "name": "Programming Fundamentals Lab (Sem 1)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS01L02",
+    "name": "ICT Lab (Sem 1)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS02T01",
+    "name": "Object Oriented Programming (Sem 2)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS02T02",
+    "name": "Discrete Structures (Sem 2)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS02T03",
+    "name": "Linear Algebra (Sem 2)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS02T04",
+    "name": "Communication Skills (Sem 2)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS02T05",
+    "name": "Pakistan Studies / Islamic Studies (Sem 2)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS02L01",
+    "name": "OOP Lab (Sem 2)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS02L02",
+    "name": "SE Practice 2-2 Lab (Sem 2)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS03T01",
+    "name": "Data Structures (Sem 3)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS03T02",
+    "name": "Software Requirements Engineering (Sem 3)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS03T03",
+    "name": "Probability & Statistics (Sem 3)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS03T04",
+    "name": "Technical Writing (Sem 3)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS03T05",
+    "name": "Digital Logic Design (Sem 3)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS03L01",
+    "name": "Data Structures Lab (Sem 3)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS03L02",
+    "name": "Software Requirements Lab (Sem 3)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS04T01",
+    "name": "Database Systems (Sem 4)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS04T02",
+    "name": "Software Design & Architecture (Sem 4)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS04T03",
+    "name": "Operating Systems (Sem 4)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS04T04",
+    "name": "Software Construction (Sem 4)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS04T05",
+    "name": "Differential Equations (Sem 4)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS04L01",
+    "name": "Database Systems Lab (Sem 4)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS04L02",
+    "name": "Software Construction Lab (Sem 4)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS05T01",
+    "name": "Software Quality Assurance (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS05T02",
+    "name": "Human Computer Interaction (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS05T03",
+    "name": "Computer Networks (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS05T04",
+    "name": "Web Engineering (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS05T05",
+    "name": "Professional Practices (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS05L01",
+    "name": "SQA Lab (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS05L02",
+    "name": "HCI Lab (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS05L03",
+    "name": "Web Engineering Lab (Sem 5)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS06T01",
+    "name": "Software Project Management (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS06T02",
+    "name": "DevOps & Cloud Fundamentals (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS06T03",
+    "name": "Information Security (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS06T04",
+    "name": "Mobile App Development (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS06T05",
+    "name": "Research Methodology (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS06L01",
+    "name": "DevOps Lab (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS06L02",
+    "name": "Information Security Lab (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS06L03",
+    "name": "Mobile App Development Lab (Sem 6)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS07T01",
+    "name": "Final Year Project I (Sem 7)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS07T02",
+    "name": "Software Testing (Sem 7)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS07T03",
+    "name": "Software Evolution & Maintenance (Sem 7)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS07T04",
+    "name": "Elective I (Sem 7)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS07T05",
+    "name": "Elective II (Sem 7)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS07L01",
+    "name": "Testing Lab (Sem 7)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS07L02",
+    "name": "SE Practice 7-2 Lab (Sem 7)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS08T01",
+    "name": "Final Year Project II (Sem 8)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS08T02",
+    "name": "Entrepreneurship / Innovation (Sem 8)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS08T03",
+    "name": "Elective III (Sem 8)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS08T04",
+    "name": "Elective IV (Sem 8)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "SEBS08L01",
+    "name": "SE Practice 8-1 Lab (Sem 8)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "SEBS08L02",
+    "name": "SE Practice 8-2 Lab (Sem 8)",
+    "dept": "SE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS01T01",
+    "name": "Applied Physics (Sem 1)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS01T02",
+    "name": "Calculus (Sem 1)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS01T03",
+    "name": "English Composition (Sem 1)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS01T04",
+    "name": "ICT (Sem 1)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS01T05",
+    "name": "Engineering Drawing (Sem 1)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS01L01",
+    "name": "Applied Physics Lab (Sem 1)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS01L02",
+    "name": "ICT Lab (Sem 1)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 1,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS02T01",
+    "name": "Linear Algebra (Sem 2)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS02T02",
+    "name": "Circuit Analysis I (Sem 2)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS02T03",
+    "name": "Communication Skills (Sem 2)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS02T04",
+    "name": "Pakistan Studies / Islamic Studies (Sem 2)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS02T05",
+    "name": "Programming Fundamentals (Sem 2)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS02L01",
+    "name": "Circuits Lab I (Sem 2)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS02L02",
+    "name": "Programming Lab (Sem 2)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 2,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS03T01",
+    "name": "Differential Equations (Sem 3)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS03T02",
+    "name": "Circuit Analysis II (Sem 3)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS03T03",
+    "name": "Digital Logic Design (Sem 3)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS03T04",
+    "name": "Signals & Systems (Sem 3)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS03T05",
+    "name": "Probability & Statistics (Sem 3)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS03L01",
+    "name": "Circuits Lab II (Sem 3)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS03L02",
+    "name": "Digital Logic Design Lab (Sem 3)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 3,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS04T01",
+    "name": "Electronics I (Sem 4)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS04T02",
+    "name": "Electromagnetics (Sem 4)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS04T03",
+    "name": "Control Systems (Sem 4)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS04T04",
+    "name": "Electrical Machines I (Sem 4)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS04T05",
+    "name": "Technical Writing (Sem 4)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS04L01",
+    "name": "Electronics Lab (Sem 4)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS04L02",
+    "name": "Control Systems Lab (Sem 4)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 4,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS05T01",
+    "name": "Power Systems I (Sem 5)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS05T02",
+    "name": "Communication Systems (Sem 5)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS05T03",
+    "name": "Electronics II (Sem 5)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS05T04",
+    "name": "Microprocessors & Interfacing (Sem 5)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS05T05",
+    "name": "Professional Ethics / Practices (Sem 5)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS05L01",
+    "name": "Communication Systems Lab (Sem 5)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS05L02",
+    "name": "Microprocessors Lab (Sem 5)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 5,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS06T01",
+    "name": "Power Electronics (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS06T02",
+    "name": "Power Systems II (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS06T03",
+    "name": "Instrumentation & Measurements (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS06T04",
+    "name": "Digital Signal Processing (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS06T05",
+    "name": "Research Methodology (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS06L01",
+    "name": "Power Electronics Lab (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS06L02",
+    "name": "Instrumentation Lab (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS06L03",
+    "name": "DSP Lab (Sem 6)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 6,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS07T01",
+    "name": "Final Year Project I (Sem 7)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS07T02",
+    "name": "Embedded Systems (Sem 7)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS07T03",
+    "name": "Renewable Energy Systems (Sem 7)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS07T04",
+    "name": "Elective I (Sem 7)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS07T05",
+    "name": "Elective II (Sem 7)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS07L01",
+    "name": "Embedded Systems Lab (Sem 7)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS07L02",
+    "name": "EE Practice 7-2 Lab (Sem 7)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 7,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS08T01",
+    "name": "Final Year Project II (Sem 8)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS08T02",
+    "name": "Engineering Management / Entrepreneurship (Sem 8)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS08T03",
+    "name": "Elective III (Sem 8)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 3,
+    "lab_required": "false"
+  },
+  {
+    "id": "EEBS08L01",
+    "name": "EE Practice 8-1 Lab (Sem 8)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  },
+  {
+    "id": "EEBS08L02",
+    "name": "EE Practice 8-2 Lab (Sem 8)",
+    "dept": "EE",
+    "program": "BS",
+    "semester": 8,
+    "sections": "A;B;C",
+    "credits": 1,
+    "lab_required": "true"
+  }
+]

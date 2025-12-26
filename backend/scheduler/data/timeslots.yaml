@@ -1,0 +1,88 @@
+MON_9: { label: "Mon 9-10", type: "class" }
+MON_10: { label: "Mon 10-11", type: "class" }
+MON_11: { label: "Mon 11-12", type: "class" }
+MON_12: { label: "Mon 12-13", type: "class" }
+MON_13: { label: "Mon 13-14", type: "class" }
+MON_14: { label: "Mon 14-15", type: "class" }
+MON_15: { label: "Mon 15-16", type: "class" }
+MON_16: { label: "Mon 16-17", type: "class" }
+MON_17: { label: "Mon 17-18", type: "class" }
+TUE_9: { label: "Tue 9-10", type: "class" }
+TUE_10: { label: "Tue 10-11", type: "class" }
+TUE_11: { label: "Tue 11-12", type: "class" }
+TUE_12: { label: "Tue 12-13", type: "class" }
+TUE_13: { label: "Tue 13-14", type: "class" }
+TUE_14: { label: "Tue 14-15", type: "class" }
+TUE_15: { label: "Tue 15-16", type: "class" }
+TUE_16: { label: "Tue 16-17", type: "class" }
+TUE_17: { label: "Tue 17-18", type: "class" }
+WED_9: { label: "Wed 9-10", type: "class" }
+WED_10: { label: "Wed 10-11", type: "class" }
+WED_11: { label: "Wed 11-12", type: "class" }
+WED_12: { label: "Wed 12-13", type: "class" }
+WED_13: { label: "Wed 13-14", type: "class" }
+WED_14: { label: "Wed 14-15", type: "class" }
+WED_15: { label: "Wed 15-16", type: "class" }
+WED_16: { label: "Wed 16-17", type: "class" }
+WED_17: { label: "Wed 17-18", type: "class" }
+THU_9: { label: "Thu 9-10", type: "class" }
+THU_10: { label: "Thu 10-11", type: "class" }
+THU_11: { label: "Thu 11-12", type: "class" }
+THU_12: { label: "Thu 12-13", type: "class" }
+THU_13: { label: "Thu 13-14", type: "class" }
+THU_14: { label: "Thu 14-15", type: "class" }
+THU_15: { label: "Thu 15-16", type: "class" }
+THU_16: { label: "Thu 16-17", type: "class" }
+THU_17: { label: "Thu 17-18", type: "class" }
+FRI_9: { label: "Fri 9-10", type: "class" }
+FRI_10: { label: "Fri 10-11", type: "class" }
+FRI_11: { label: "Fri 11-12", type: "class" }
+FRI_12: { label: "Fri 12-13", type: "class" }
+FRI_13: { label: "Fri 13-14", type: "class" }
+FRI_14: { label: "Fri 14-15", type: "class" }
+FRI_15: { label: "Fri 15-16", type: "class" }
+FRI_16: { label: "Fri 16-17", type: "class" }
+FRI_17: { label: "Fri 17-18", type: "class" }
+
+LAB_MON_12: { label: "Mon 12-15 Lab", type: "lab" }
+LAB_MON_15: { label: "Mon 15-18 Lab", type: "lab" }
+LAB_MON_9: { label: "Mon 9-12 Lab", type: "lab" }
+LAB_MON_18: { label: "Mon 18-21 Lab", type: "lab" }
+LAB_TUE_12: { label: "Tue 12-15 Lab", type: "lab" }
+LAB_TUE_15: { label: "Tue 15-18 Lab", type: "lab" }
+LAB_TUE_9: { label: "Tue 9-12 Lab", type: "lab" }
+LAB_TUE_18: { label: "Tue 18-21 Lab", type: "lab" }
+LAB_WED_12: { label: "Wed 12-15 Lab", type: "lab" }
+LAB_WED_15: { label: "Wed 15-18 Lab", type: "lab" }
+LAB_WED_9: { label: "Wed 9-12 Lab", type: "lab" }
+LAB_WED_18: { label: "Wed 18-21 Lab", type: "lab" }
+LAB_THU_12: { label: "Thu 12-15 Lab", type: "lab" }
+LAB_THU_15: { label: "Thu 15-18 Lab", type: "lab" }
+LAB_THU_9: { label: "Thu 9-12 Lab", type: "lab" }
+LAB_THU_18: { label: "Thu 18-21 Lab", type: "lab" }
+LAB_FRI_12: { label: "Fri 12-15 Lab", type: "lab" }
+LAB_FRI_15: { label: "Fri 15-18 Lab", type: "lab" }
+LAB_FRI_9: { label: "Fri 9-12 Lab", type: "lab" }
+LAB_FRI_18: { label: "Fri 18-21 Lab", type: "lab" }
+
+EXAM_D1_M: { label: "2025-12-16 Morning", type: "exam" }
+EXAM_D1_E: { label: "2025-12-16 Evening", type: "exam" }
+EXAM_D2_M: { label: "2025-12-17 Morning", type: "exam" }
+EXAM_D2_E: { label: "2025-12-17 Evening", type: "exam" }
+
+EXAM_D3_M: { label: "2025-12-18 Morning", type: "exam" }
+EXAM_D3_E: { label: "2025-12-18 Evening", type: "exam" }
+EXAM_D4_M: { label: "2025-12-19 Morning", type: "exam" }
+EXAM_D4_E: { label: "2025-12-19 Evening", type: "exam" }
+EXAM_D5_M: { label: "2025-12-20 Morning", type: "exam" }
+EXAM_D5_E: { label: "2025-12-20 Evening", type: "exam" }
+EXAM_D6_M: { label: "2025-12-21 Morning", type: "exam" }
+EXAM_D6_E: { label: "2025-12-21 Evening", type: "exam" }
+EXAM_D7_M: { label: "2025-12-22 Morning", type: "exam" }
+EXAM_D7_E: { label: "2025-12-22 Evening", type: "exam" }
+EXAM_D8_M: { label: "2025-12-23 Morning", type: "exam" }
+EXAM_D8_E: { label: "2025-12-23 Evening", type: "exam" }
+EXAM_D9_M: { label: "2025-12-24 Morning", type: "exam" }
+EXAM_D9_E: { label: "2025-12-24 Evening", type: "exam" }
+EXAM_D10_M: { label: "2025-12-25 Morning", type: "exam" }
+EXAM_D10_E: { label: "2025-12-25 Evening", type: "exam" }

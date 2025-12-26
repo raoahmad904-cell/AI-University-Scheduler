@@ -1,0 +1,10 @@
+[
+  {
+    "id": "23",
+    "capacity": "99",
+    "type": "lab",
+    "building": "North",
+    "floor": "3",
+    "equipment": "computers"
+  }
+]

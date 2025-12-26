@@ -1,0 +1,654 @@
+[
+  {
+    "id": "R001",
+    "capacity": 40,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "2",
+    "equipment": "projector"
+  },
+  {
+    "id": "R002",
+    "capacity": 45,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "3",
+    "equipment": "projector"
+  },
+  {
+    "id": "R003",
+    "capacity": 50,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "1",
+    "equipment": "projector"
+  },
+  {
+    "id": "R004",
+    "capacity": 55,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "2",
+    "equipment": "projector"
+  },
+  {
+    "id": "R005",
+    "capacity": 60,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "3",
+    "equipment": "projector"
+  },
+  {
+    "id": "R006",
+    "capacity": 40,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "1",
+    "equipment": "projector"
+  },
+  {
+    "id": "R007",
+    "capacity": 45,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "2",
+    "equipment": "projector"
+  },
+  {
+    "id": "R008",
+    "capacity": 50,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "3",
+    "equipment": "projector"
+  },
+  {
+    "id": "R009",
+    "capacity": 55,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "1",
+    "equipment": "projector"
+  },
+  {
+    "id": "R010",
+    "capacity": 60,
+    "type": "lecture",
+    "building": "Main",
+    "floor": "2",
+    "equipment": "projector"
+  },
+  {
+    "id": "R011",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R012",
+    "capacity": 25,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R013",
+    "capacity": 26,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R014",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R015",
+    "capacity": 25,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R016",
+    "capacity": 25,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R017",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R018",
+    "capacity": 29,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R019",
+    "capacity": 26,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R020",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R021",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R022",
+    "capacity": 29,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R023",
+    "capacity": 26,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R024",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R025",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R026",
+    "capacity": 26,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R027",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R028",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R029",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R030",
+    "capacity": 29,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R031",
+    "capacity": 28,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R032",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R033",
+    "capacity": 25,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R034",
+    "capacity": 25,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R035",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R036",
+    "capacity": 28,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R037",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R038",
+    "capacity": 25,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R039",
+    "capacity": 25,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R040",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R041",
+    "capacity": 26,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R042",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R043",
+    "capacity": 27,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R044",
+    "capacity": 26,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "3",
+    "equipment": "computers"
+  },
+  {
+    "id": "R045",
+    "capacity": 30,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "1",
+    "equipment": "computers"
+  },
+  {
+    "id": "R046",
+    "capacity": 28,
+    "type": "lab",
+    "building": "CS-Block",
+    "floor": "2",
+    "equipment": "computers"
+  },
+  {
+    "id": "R047",
+    "capacity": 155,
+    "type": "exam",
+    "building": "Auditorium",
+    "floor": "0",
+    "equipment": "projector"
+  },
+  {
+    "id": "R048",
+    "capacity": 165,
+    "type": "exam",
+    "building": "Auditorium",
+    "floor": "0",
+    "equipment": "projector"
+  },
+  {
+    "id": "R049",
+    "capacity": 147,
+    "type": "exam",
+    "building": "Auditorium",
+    "floor": "0",
+    "equipment": "projector"
+  },
+  {
+    "id": "R050",
+    "capacity": 155,
+    "type": "exam",
+    "building": "Auditorium",
+    "floor": "0",
+    "equipment": "projector"
+  },
+  {
+    "id": "T_CS_01",
+    "name": "Dr. Ali Khan",
+    "dept": "CS",
+    "availability": "THU_10;MON_10;MON_9;THU_11;TUE_10;TUE_9;THU_9;MON_11;TUE_11;FRI_9",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_CS_02",
+    "name": "Dr. Sara Ahmed",
+    "dept": "CS",
+    "availability": "THU_11;WED_11;MON_10;THU_9;WED_9;MON_9;FRI_11;FRI_9;WED_10;THU_10",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_CS_03",
+    "name": "Dr. Bilal Hassan",
+    "dept": "CS",
+    "availability": "THU_9;MON_9;WED_11;TUE_9;THU_10;FRI_9;WED_9;THU_11;WED_10;TUE_10",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_CS_04",
+    "name": "Dr. Ayesha Malik",
+    "dept": "CS",
+    "availability": "FRI_9;FRI_10;MON_9;MON_11;WED_9;TUE_11;TUE_10;THU_11;MON_10;WED_10",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_CS_05",
+    "name": "Dr. Omar Farooq",
+    "dept": "CS",
+    "availability": "MON_10;WED_9;FRI_11;TUE_11;THU_11;THU_9;TUE_10;MON_9;THU_10;TUE_9",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_CS_06",
+    "name": "Dr. Zainab Bibi",
+    "dept": "CS",
+    "availability": "MON_10;WED_9;FRI_11;WED_11;TUE_10;THU_9;TUE_11;TUE_9;THU_11;MON_9",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_CS_07",
+    "name": "Dr. Hamza Shah",
+    "dept": "CS",
+    "availability": "THU_10;TUE_9;FRI_9;TUE_10;MON_10;FRI_10;FRI_11;WED_9;MON_11;THU_9",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_CS_08",
+    "name": "Dr. Fatima Tariq",
+    "dept": "CS",
+    "availability": "FRI_10;TUE_11;MON_11;FRI_11;THU_11;TUE_9;TUE_10;MON_10;WED_11;THU_10",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_CS_09",
+    "name": "Dr. Usman Gondal",
+    "dept": "CS",
+    "availability": "WED_11;THU_11;TUE_9;MON_11;WED_10;WED_9;TUE_10;FRI_9;TUE_11;FRI_10",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_CS_10",
+    "name": "Dr. Hina Kareem",
+    "dept": "CS",
+    "availability": "TUE_9;FRI_10;MON_9;TUE_11;WED_9;TUE_10;MON_10;FRI_11;THU_9;THU_11",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_CS_11",
+    "name": "Dr. Fahad Mustafa",
+    "dept": "CS",
+    "availability": "TUE_9;THU_10;WED_10;WED_9;FRI_10;FRI_9;MON_11;TUE_10;MON_10;THU_11",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_CS_12",
+    "name": "Dr. Sana Mir",
+    "dept": "CS",
+    "availability": "WED_11;FRI_11;TUE_10;THU_11;THU_9;WED_9;THU_10;TUE_11;MON_10;FRI_10",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_SE_01",
+    "name": "Dr. Ahmed Raza",
+    "dept": "SE",
+    "availability": "WED_10;MON_10;FRI_9;MON_9;FRI_10;MON_11;THU_9;WED_9;TUE_10;THU_11",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_SE_02",
+    "name": "Dr. Mariam Jamil",
+    "dept": "SE",
+    "availability": "WED_9;THU_9;WED_10;WED_11;TUE_10;THU_11;MON_9;MON_10;TUE_11;THU_10",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_SE_03",
+    "name": "Dr. Danish Taimoor",
+    "dept": "SE",
+    "availability": "FRI_9;THU_10;TUE_11;MON_10;TUE_10;WED_9;MON_11;WED_10;MON_9;FRI_11",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_SE_04",
+    "name": "Dr. Nida Yasir",
+    "dept": "SE",
+    "availability": "TUE_10;WED_11;FRI_9;MON_11;FRI_10;MON_10;FRI_11;TUE_9;THU_9;THU_11",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_SE_05",
+    "name": "Dr. Yasir Hussain",
+    "dept": "SE",
+    "availability": "WED_11;FRI_9;FRI_11;MON_9;THU_9;TUE_11;WED_10;THU_11;FRI_10;MON_11",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_SE_06",
+    "name": "Dr. Sadia Khan",
+    "dept": "SE",
+    "availability": "TUE_9;MON_9;FRI_11;THU_9;MON_10;THU_10;WED_10;THU_11;WED_9;TUE_10",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_SE_07",
+    "name": "Dr. Fawad Khan",
+    "dept": "SE",
+    "availability": "MON_11;THU_10;WED_10;WED_11;FRI_11;TUE_10;THU_11;WED_9;MON_10;THU_9",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_SE_08",
+    "name": "Dr. Mahira Khan",
+    "dept": "SE",
+    "availability": "THU_11;TUE_9;FRI_11;TUE_10;WED_9;TUE_11;WED_10;WED_11;MON_9;MON_10",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_SE_09",
+    "name": "Dr. Humayun Saeed",
+    "dept": "SE",
+    "availability": "MON_10;TUE_11;MON_9;THU_9;WED_11;TUE_9;THU_11;FRI_9;WED_10;FRI_10",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_SE_10",
+    "name": "Dr. Saba Qamar",
+    "dept": "SE",
+    "availability": "MON_9;TUE_9;MON_10;FRI_11;TUE_11;FRI_9;WED_11;FRI_10;MON_11;THU_10",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_SE_11",
+    "name": "Dr. Imran Abbas",
+    "dept": "SE",
+    "availability": "TUE_9;WED_11;MON_11;THU_11;THU_9;THU_10;WED_10;FRI_11;WED_9;FRI_10",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_SE_12",
+    "name": "Dr. Ayeza Khan",
+    "dept": "SE",
+    "availability": "TUE_9;MON_10;FRI_10;THU_10;WED_9;TUE_11;THU_11;WED_11;FRI_11;THU_9",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_EE_01",
+    "name": "Dr. Bilal Abbas",
+    "dept": "EE",
+    "availability": "THU_10;FRI_11;FRI_10;MON_10;MON_9;WED_9;TUE_11;THU_11;WED_10;THU_9",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_EE_02",
+    "name": "Dr. Hania Aamir",
+    "dept": "EE",
+    "availability": "WED_11;WED_10;MON_11;WED_9;FRI_9;TUE_10;FRI_10;TUE_9;THU_11;MON_9",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_EE_03",
+    "name": "Dr. Ahsan Khan",
+    "dept": "EE",
+    "availability": "FRI_9;FRI_10;WED_11;MON_10;MON_9;FRI_11;THU_10;THU_11;WED_9;WED_10",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_EE_04",
+    "name": "Dr. Sajal Aly",
+    "dept": "EE",
+    "availability": "WED_9;WED_10;FRI_10;TUE_9;FRI_11;MON_9;MON_11;THU_10;THU_9;THU_11",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_EE_05",
+    "name": "Dr. Feroze Khan",
+    "dept": "EE",
+    "availability": "FRI_11;FRI_9;FRI_10;WED_10;TUE_10;WED_9;WED_11;THU_11;MON_10;THU_9",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_EE_06",
+    "name": "Dr. Yumna Zaidi",
+    "dept": "EE",
+    "availability": "TUE_9;MON_9;THU_9;THU_11;WED_11;FRI_10;TUE_11;FRI_9;WED_10;TUE_10",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_EE_07",
+    "name": "Dr. Sheheryar Munawar",
+    "dept": "EE",
+    "availability": "WED_11;FRI_10;FRI_11;MON_11;MON_9;FRI_9;MON_10;THU_11;THU_10;TUE_10",
+    "preferences": "morning"
+  },
+  {
+    "id": "T_EE_08",
+    "name": "Dr. Kubra Khan",
+    "dept": "EE",
+    "availability": "THU_10;FRI_10;TUE_9;WED_9;MON_10;THU_9;FRI_9;MON_9;TUE_10;WED_10",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_EE_09",
+    "name": "Dr. Adnan Siddiqui",
+    "dept": "EE",
+    "availability": "THU_10;THU_9;FRI_10;WED_11;TUE_11;TUE_10;TUE_9;FRI_11;MON_10;MON_11",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_EE_10",
+    "name": "Dr. Iqra Aziz",
+    "dept": "EE",
+    "availability": "MON_11;THU_10;FRI_10;TUE_10;WED_10;TUE_11;MON_10;MON_9;TUE_9;THU_11",
+    "preferences": "evening"
+  },
+  {
+    "id": "T_EE_11",
+    "name": "Dr. Sarah Khan",
+    "dept": "EE",
+    "availability": "MON_10;FRI_11;WED_11;TUE_9;FRI_9;TUE_10;MON_11;TUE_11;MON_9;FRI_10",
+    "preferences": "mixed"
+  },
+  {
+    "id": "T_EE_12",
+    "name": "Dr. Ahad Raza Mir",
+    "dept": "EE",
+    "availability": "TUE_10;MON_11;WED_10;WED_11;FRI_11;THU_9;THU_11;MON_9;TUE_11;THU_10",
+    "preferences": "mixed"
+  }
+]

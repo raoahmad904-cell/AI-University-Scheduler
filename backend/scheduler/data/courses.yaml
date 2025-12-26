@@ -1,0 +1,32 @@
+CS101:
+  title: "Intro to CS"
+  department: "CS"
+  sections: ["A", "B"]
+  teacher_id: "T1"
+  hours_per_week: 3
+  is_lab: false
+
+CS101L:
+  title: "Intro to CS Lab"
+  department: "CS"
+  sections: ["A"]
+  teacher_id: "T1"
+  hours_per_week: 3
+  is_lab: true
+  lab_room_tags: ["lab"]
+
+BBA201:
+  title: "Marketing Basics"
+  department: "BBA"
+  sections: ["A"]
+  teacher_id: "T2"
+  hours_per_week: 2
+  is_lab: false
+
+EE150:
+  title: "Circuit Analysis"
+  department: "EE"
+  sections: ["A"]
+  teacher_id: "T3"
+  hours_per_week: 3
+  is_lab: false

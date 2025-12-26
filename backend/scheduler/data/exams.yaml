@@ -1,0 +1,20 @@
+EXAM1:
+  id: "EXAM1"
+  course_code: "CS101"
+  title: "Intro to CS"
+  student_ids: ["S001","S002","S003","S008","S009","S011","S013","S016","S017","S020"]
+  department: "CS"
+
+EXAM2:
+  id: "EXAM2"
+  course_code: "BBA201"
+  title: "Marketing Basics"
+  student_ids: ["S004","S005","S012","S014","S018"]
+  department: "BBA"
+
+EXAM3:
+  id: "EXAM3"
+  course_code: "EE150"
+  title: "Circuit Analysis"
+  student_ids: ["S006","S007","S010","S015","S019"]
+  department: "EE"

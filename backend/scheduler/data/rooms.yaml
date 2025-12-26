@@ -1,0 +1,20 @@
+RoomA:
+  name: "Room A"
+  capacity: 40
+  tags: ["near-CS", "ground-floor"]
+RoomB:
+  name: "Room B"
+  capacity: 30
+  tags: ["near-EE"]
+RoomC:
+  name: "Room C"
+  capacity: 50
+  tags: ["near-BBA"]
+RoomD:
+  name: "Lab 1"
+  capacity: 25
+  tags: ["lab"]
+RoomE:
+  name: "Lab 2"
+  capacity: 25
+  tags: ["lab"]

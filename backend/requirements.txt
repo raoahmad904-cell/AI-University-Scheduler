@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pyyaml
+networkx
+numpy
+scipy
+tabulate
+pytest
+pydantic
+reportlab

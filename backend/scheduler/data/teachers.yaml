@@ -1,0 +1,9 @@
+T1:
+  name: "Dr. Ali Khan"
+  availability: ["MON_9", "MON_10", "MON_11", "TUE_9", "TUE_10", "TUE_11", "LAB_MON_12", "LAB_TUE_12"]
+T2:
+  name: "Dr. Sara Ahmed"
+  availability: ["MON_9", "MON_10", "WED_9", "WED_10", "THU_9", "THU_10", "LAB_WED_12"]
+T3:
+  name: "Dr. Bilal Hassan"
+  availability: ["TUE_9", "TUE_10", "TUE_11", "THU_9", "THU_10", "FRI_9", "LAB_THU_12"]

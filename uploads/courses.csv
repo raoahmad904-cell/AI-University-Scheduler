@@ -1,0 +1,170 @@
+id,name,dept,program,semester,sections,credits,lab_required
+CSBS01T01,Programming Fundamentals (Sem 1),CS,BS,1,A;B;C,3,false
+CSBS01T02,ICT (Sem 1),CS,BS,1,A;B;C,3,false
+CSBS01T03,Calculus (Sem 1),CS,BS,1,A;B;C,3,false
+CSBS01T04,English Composition (Sem 1),CS,BS,1,A;B;C,3,false
+CSBS01T05,Applied Physics (Sem 1),CS,BS,1,A;B;C,3,false
+CSBS01L01,Programming Fundamentals Lab (Sem 1),CS,BS,1,A;B;C,1,true
+CSBS01L02,ICT Lab (Sem 1),CS,BS,1,A;B;C,1,true
+CSBS02T01,Object Oriented Programming (Sem 2),CS,BS,2,A;B;C,3,false
+CSBS02T02,Discrete Structures (Sem 2),CS,BS,2,A;B;C,3,false
+CSBS02T03,Linear Algebra (Sem 2),CS,BS,2,A;B;C,3,false
+CSBS02T04,Communication Skills (Sem 2),CS,BS,2,A;B;C,3,false
+CSBS02T05,Pakistan Studies / Islamic Studies (Sem 2),CS,BS,2,A;B;C,3,false
+CSBS02L01,OOP Lab (Sem 2),CS,BS,2,A;B;C,1,true
+CSBS02L02,CS Practice 2-2 Lab (Sem 2),CS,BS,2,A;B;C,1,true
+CSBS03T01,Data Structures & Algorithms (Sem 3),CS,BS,3,A;B;C,3,false
+CSBS03T02,Digital Logic Design (Sem 3),CS,BS,3,A;B;C,3,false
+CSBS03T03,Probability & Statistics (Sem 3),CS,BS,3,A;B;C,3,false
+CSBS03T04,Technical Writing (Sem 3),CS,BS,3,A;B;C,3,false
+CSBS03T05,Computer Organization & Assembly (Sem 3),CS,BS,3,A;B;C,3,false
+CSBS03L01,Data Structures Lab (Sem 3),CS,BS,3,A;B;C,1,true
+CSBS03L02,Digital Logic Design Lab (Sem 3),CS,BS,3,A;B;C,1,true
+CSBS04T01,Operating Systems (Sem 4),CS,BS,4,A;B;C,3,false
+CSBS04T02,Database Systems (Sem 4),CS,BS,4,A;B;C,3,false
+CSBS04T03,Design & Analysis of Algorithms (Sem 4),CS,BS,4,A;B;C,3,false
+CSBS04T04,Software Engineering (Sem 4),CS,BS,4,A;B;C,3,false
+CSBS04T05,Differential Equations (Sem 4),CS,BS,4,A;B;C,3,false
+CSBS04L01,Operating Systems Lab (Sem 4),CS,BS,4,A;B;C,1,true
+CSBS04L02,Database Systems Lab (Sem 4),CS,BS,4,A;B;C,1,true
+CSBS05T01,Computer Networks (Sem 5),CS,BS,5,A;B;C,3,false
+CSBS05T02,Theory of Automata (Sem 5),CS,BS,5,A;B;C,3,false
+CSBS05T03,Artificial Intelligence (Sem 5),CS,BS,5,A;B;C,3,false
+CSBS05T04,Web Engineering (Sem 5),CS,BS,5,A;B;C,3,false
+CSBS05T05,Professional Practices (Sem 5),CS,BS,5,A;B;C,3,false
+CSBS05L01,Computer Networks Lab (Sem 5),CS,BS,5,A;B;C,1,true
+CSBS05L02,Web Engineering Lab (Sem 5),CS,BS,5,A;B;C,1,true
+CSBS05L03,AI Lab (Sem 5),CS,BS,5,A;B;C,1,true
+CSBS06T01,Compiler Construction (Sem 6),CS,BS,6,A;B;C,3,false
+CSBS06T02,Information Security (Sem 6),CS,BS,6,A;B;C,3,false
+CSBS06T03,Parallel & Distributed Computing (Sem 6),CS,BS,6,A;B;C,3,false
+CSBS06T04,Mobile App Development (Sem 6),CS,BS,6,A;B;C,3,false
+CSBS06T05,Research Methodology (Sem 6),CS,BS,6,A;B;C,3,false
+CSBS06L01,Compiler Construction Lab (Sem 6),CS,BS,6,A;B;C,1,true
+CSBS06L02,Information Security Lab (Sem 6),CS,BS,6,A;B;C,1,true
+CSBS06L03,Mobile App Development Lab (Sem 6),CS,BS,6,A;B;C,1,true
+CSBS07T01,Final Year Project I (Sem 7),CS,BS,7,A;B;C,3,false
+CSBS07T02,Machine Learning (Sem 7),CS,BS,7,A;B;C,3,false
+CSBS07T03,Cloud Computing (Sem 7),CS,BS,7,A;B;C,3,false
+CSBS07T04,Software Quality Assurance (Sem 7),CS,BS,7,A;B;C,3,false
+CSBS07T05,Elective I (Sem 7),CS,BS,7,A;B;C,3,false
+CSBS07L01,Machine Learning Lab (Sem 7),CS,BS,7,A;B;C,1,true
+CSBS07L02,Cloud Computing Lab (Sem 7),CS,BS,7,A;B;C,1,true
+CSBS08T01,Final Year Project II (Sem 8),CS,BS,8,A;B;C,3,false
+CSBS08T02,Data Science (Sem 8),CS,BS,8,A;B;C,3,false
+CSBS08T03,Internet of Things (Sem 8),CS,BS,8,A;B;C,3,false
+CSBS08T04,Elective II (Sem 8),CS,BS,8,A;B;C,3,false
+CSBS08L01,Data Science Lab (Sem 8),CS,BS,8,A;B;C,1,true
+CSBS08L02,IoT Lab (Sem 8),CS,BS,8,A;B;C,1,true
+SEBS01T01,Programming Fundamentals (Sem 1),SE,BS,1,A;B;C,3,false
+SEBS01T02,ICT (Sem 1),SE,BS,1,A;B;C,3,false
+SEBS01T03,Calculus (Sem 1),SE,BS,1,A;B;C,3,false
+SEBS01T04,English Composition (Sem 1),SE,BS,1,A;B;C,3,false
+SEBS01T05,Applied Physics (Sem 1),SE,BS,1,A;B;C,3,false
+SEBS01L01,Programming Fundamentals Lab (Sem 1),SE,BS,1,A;B;C,1,true
+SEBS01L02,ICT Lab (Sem 1),SE,BS,1,A;B;C,1,true
+SEBS02T01,Object Oriented Programming (Sem 2),SE,BS,2,A;B;C,3,false
+SEBS02T02,Discrete Structures (Sem 2),SE,BS,2,A;B;C,3,false
+SEBS02T03,Linear Algebra (Sem 2),SE,BS,2,A;B;C,3,false
+SEBS02T04,Communication Skills (Sem 2),SE,BS,2,A;B;C,3,false
+SEBS02T05,Pakistan Studies / Islamic Studies (Sem 2),SE,BS,2,A;B;C,3,false
+SEBS02L01,OOP Lab (Sem 2),SE,BS,2,A;B;C,1,true
+SEBS02L02,SE Practice 2-2 Lab (Sem 2),SE,BS,2,A;B;C,1,true
+SEBS03T01,Data Structures (Sem 3),SE,BS,3,A;B;C,3,false
+SEBS03T02,Software Requirements Engineering (Sem 3),SE,BS,3,A;B;C,3,false
+SEBS03T03,Probability & Statistics (Sem 3),SE,BS,3,A;B;C,3,false
+SEBS03T04,Technical Writing (Sem 3),SE,BS,3,A;B;C,3,false
+SEBS03T05,Digital Logic Design (Sem 3),SE,BS,3,A;B;C,3,false
+SEBS03L01,Data Structures Lab (Sem 3),SE,BS,3,A;B;C,1,true
+SEBS03L02,Software Requirements Lab (Sem 3),SE,BS,3,A;B;C,1,true
+SEBS04T01,Database Systems (Sem 4),SE,BS,4,A;B;C,3,false
+SEBS04T02,Software Design & Architecture (Sem 4),SE,BS,4,A;B;C,3,false
+SEBS04T03,Operating Systems (Sem 4),SE,BS,4,A;B;C,3,false
+SEBS04T04,Software Construction (Sem 4),SE,BS,4,A;B;C,3,false
+SEBS04T05,Differential Equations (Sem 4),SE,BS,4,A;B;C,3,false
+SEBS04L01,Database Systems Lab (Sem 4),SE,BS,4,A;B;C,1,true
+SEBS04L02,Software Construction Lab (Sem 4),SE,BS,4,A;B;C,1,true
+SEBS05T01,Software Quality Assurance (Sem 5),SE,BS,5,A;B;C,3,false
+SEBS05T02,Human Computer Interaction (Sem 5),SE,BS,5,A;B;C,3,false
+SEBS05T03,Computer Networks (Sem 5),SE,BS,5,A;B;C,3,false
+SEBS05T04,Web Engineering (Sem 5),SE,BS,5,A;B;C,3,false
+SEBS05T05,Professional Practices (Sem 5),SE,BS,5,A;B;C,3,false
+SEBS05L01,SQA Lab (Sem 5),SE,BS,5,A;B;C,1,true
+SEBS05L02,HCI Lab (Sem 5),SE,BS,5,A;B;C,1,true
+SEBS05L03,Web Engineering Lab (Sem 5),SE,BS,5,A;B;C,1,true
+SEBS06T01,Software Project Management (Sem 6),SE,BS,6,A;B;C,3,false
+SEBS06T02,DevOps & Cloud Fundamentals (Sem 6),SE,BS,6,A;B;C,3,false
+SEBS06T03,Information Security (Sem 6),SE,BS,6,A;B;C,3,false
+SEBS06T04,Mobile App Development (Sem 6),SE,BS,6,A;B;C,3,false
+SEBS06T05,Research Methodology (Sem 6),SE,BS,6,A;B;C,3,false
+SEBS06L01,DevOps Lab (Sem 6),SE,BS,6,A;B;C,1,true
+SEBS06L02,Information Security Lab (Sem 6),SE,BS,6,A;B;C,1,true
+SEBS06L03,Mobile App Development Lab (Sem 6),SE,BS,6,A;B;C,1,true
+SEBS07T01,Final Year Project I (Sem 7),SE,BS,7,A;B;C,3,false
+SEBS07T02,Software Testing (Sem 7),SE,BS,7,A;B;C,3,false
+SEBS07T03,Software Evolution & Maintenance (Sem 7),SE,BS,7,A;B;C,3,false
+SEBS07T04,Elective I (Sem 7),SE,BS,7,A;B;C,3,false
+SEBS07T05,Elective II (Sem 7),SE,BS,7,A;B;C,3,false
+SEBS07L01,Testing Lab (Sem 7),SE,BS,7,A;B;C,1,true
+SEBS07L02,SE Practice 7-2 Lab (Sem 7),SE,BS,7,A;B;C,1,true
+SEBS08T01,Final Year Project II (Sem 8),SE,BS,8,A;B;C,3,false
+SEBS08T02,Entrepreneurship / Innovation (Sem 8),SE,BS,8,A;B;C,3,false
+SEBS08T03,Elective III (Sem 8),SE,BS,8,A;B;C,3,false
+SEBS08T04,Elective IV (Sem 8),SE,BS,8,A;B;C,3,false
+SEBS08L01,SE Practice 8-1 Lab (Sem 8),SE,BS,8,A;B;C,1,true
+SEBS08L02,SE Practice 8-2 Lab (Sem 8),SE,BS,8,A;B;C,1,true
+EEBS01T01,Applied Physics (Sem 1),EE,BS,1,A;B;C,3,false
+EEBS01T02,Calculus (Sem 1),EE,BS,1,A;B;C,3,false
+EEBS01T03,English Composition (Sem 1),EE,BS,1,A;B;C,3,false
+EEBS01T04,ICT (Sem 1),EE,BS,1,A;B;C,3,false
+EEBS01T05,Engineering Drawing (Sem 1),EE,BS,1,A;B;C,3,false
+EEBS01L01,Applied Physics Lab (Sem 1),EE,BS,1,A;B;C,1,true
+EEBS01L02,ICT Lab (Sem 1),EE,BS,1,A;B;C,1,true
+EEBS02T01,Linear Algebra (Sem 2),EE,BS,2,A;B;C,3,false
+EEBS02T02,Circuit Analysis I (Sem 2),EE,BS,2,A;B;C,3,false
+EEBS02T03,Communication Skills (Sem 2),EE,BS,2,A;B;C,3,false
+EEBS02T04,Pakistan Studies / Islamic Studies (Sem 2),EE,BS,2,A;B;C,3,false
+EEBS02T05,Programming Fundamentals (Sem 2),EE,BS,2,A;B;C,3,false
+EEBS02L01,Circuits Lab I (Sem 2),EE,BS,2,A;B;C,1,true
+EEBS02L02,Programming Lab (Sem 2),EE,BS,2,A;B;C,1,true
+EEBS03T01,Differential Equations (Sem 3),EE,BS,3,A;B;C,3,false
+EEBS03T02,Circuit Analysis II (Sem 3),EE,BS,3,A;B;C,3,false
+EEBS03T03,Digital Logic Design (Sem 3),EE,BS,3,A;B;C,3,false
+EEBS03T04,Signals & Systems (Sem 3),EE,BS,3,A;B;C,3,false
+EEBS03T05,Probability & Statistics (Sem 3),EE,BS,3,A;B;C,3,false
+EEBS03L01,Circuits Lab II (Sem 3),EE,BS,3,A;B;C,1,true
+EEBS03L02,Digital Logic Design Lab (Sem 3),EE,BS,3,A;B;C,1,true
+EEBS04T01,Electronics I (Sem 4),EE,BS,4,A;B;C,3,false
+EEBS04T02,Electromagnetics (Sem 4),EE,BS,4,A;B;C,3,false
+EEBS04T03,Control Systems (Sem 4),EE,BS,4,A;B;C,3,false
+EEBS04T04,Electrical Machines I (Sem 4),EE,BS,4,A;B;C,3,false
+EEBS04T05,Technical Writing (Sem 4),EE,BS,4,A;B;C,3,false
+EEBS04L01,Electronics Lab (Sem 4),EE,BS,4,A;B;C,1,true
+EEBS04L02,Control Systems Lab (Sem 4),EE,BS,4,A;B;C,1,true
+EEBS05T01,Power Systems I (Sem 5),EE,BS,5,A;B;C,3,false
+EEBS05T02,Communication Systems (Sem 5),EE,BS,5,A;B;C,3,false
+EEBS05T03,Electronics II (Sem 5),EE,BS,5,A;B;C,3,false
+EEBS05T04,Microprocessors & Interfacing (Sem 5),EE,BS,5,A;B;C,3,false
+EEBS05T05,Professional Ethics / Practices (Sem 5),EE,BS,5,A;B;C,3,false
+EEBS05L01,Communication Systems Lab (Sem 5),EE,BS,5,A;B;C,1,true
+EEBS05L02,Microprocessors Lab (Sem 5),EE,BS,5,A;B;C,1,true
+EEBS06T01,Power Electronics (Sem 6),EE,BS,6,A;B;C,3,false
+EEBS06T02,Power Systems II (Sem 6),EE,BS,6,A;B;C,3,false
+EEBS06T03,Instrumentation & Measurements (Sem 6),EE,BS,6,A;B;C,3,false
+EEBS06T04,Digital Signal Processing (Sem 6),EE,BS,6,A;B;C,3,false
+EEBS06T05,Research Methodology (Sem 6),EE,BS,6,A;B;C,3,false
+EEBS06L01,Power Electronics Lab (Sem 6),EE,BS,6,A;B;C,1,true
+EEBS06L02,Instrumentation Lab (Sem 6),EE,BS,6,A;B;C,1,true
+EEBS06L03,DSP Lab (Sem 6),EE,BS,6,A;B;C,1,true
+EEBS07T01,Final Year Project I (Sem 7),EE,BS,7,A;B;C,3,false
+EEBS07T02,Embedded Systems (Sem 7),EE,BS,7,A;B;C,3,false
+EEBS07T03,Renewable Energy Systems (Sem 7),EE,BS,7,A;B;C,3,false
+EEBS07T04,Elective I (Sem 7),EE,BS,7,A;B;C,3,false
+EEBS07T05,Elective II (Sem 7),EE,BS,7,A;B;C,3,false
+EEBS07L01,Embedded Systems Lab (Sem 7),EE,BS,7,A;B;C,1,true
+EEBS07L02,EE Practice 7-2 Lab (Sem 7),EE,BS,7,A;B;C,1,true
+EEBS08T01,Final Year Project II (Sem 8),EE,BS,8,A;B;C,3,false
+EEBS08T02,Engineering Management / Entrepreneurship (Sem 8),EE,BS,8,A;B;C,3,false
+EEBS08T03,Elective III (Sem 8),EE,BS,8,A;B;C,3,false
+EEBS08L01,EE Practice 8-1 Lab (Sem 8),EE,BS,8,A;B;C,1,true
+EEBS08L02,EE Practice 8-2 Lab (Sem 8),EE,BS,8,A;B;C,1,true
