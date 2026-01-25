@@ -173,6 +173,15 @@ class ClassTimetableCSP:
             teachers = self._teacher_candidates(course, dept)
             # Prefer keeping the course with its preferred/department teacher, while still balancing workload.
             for teacher in teachers:
+                # NEW: Prevent same teacher for multiple subjects in same section (unless relax)
+                already_assigned = any(
+                    assignments.get(f"{other_cid}|{section_letter}|S{other_sess}", {}).get("teacher") == teacher
+                    for other_cid, other_course in self.courses.items()
+                    if other_cid != course_id and isinstance(other_course, dict) and section_letter in [str(s).upper().strip() for s in other_course.get("sections", ["A"])]
+                    for other_sess in range(1, self.course_hours.get(other_cid, 2) + 1)
+                )
+                if already_assigned and not relax:
+                    continue
                 # Weekly workload guardrails
                 if teacher_week_count.get(teacher, 0) >= self.max_teacher_week_hard:
                     continue

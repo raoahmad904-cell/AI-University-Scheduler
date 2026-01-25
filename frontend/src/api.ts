@@ -14,12 +14,11 @@ export async function login(email: string, password: string) {
 
 export async function allocateExamRooms(
   exam_id: string,
-  mode: 'room' | 'department' | 'hybrid' | 'column',
   exam_ids?: string[]
 ) {
   const res = await axios.post(`${API_BASE}/api/allocate_rooms`, {
     exam_id,
-    mode,
+    mode: 'column',
     exam_ids,
   })
   return res.data

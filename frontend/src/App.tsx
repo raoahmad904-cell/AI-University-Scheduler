@@ -185,7 +185,8 @@ export default function App() {
   // Exam Rooms
   const [examId, setExamId] = useState('')
   const [selectedExamIds, setSelectedExamIds] = useState<string[]>([])
-  const [mode, setMode] = useState<'room' | 'department' | 'hybrid' | 'column'>('hybrid')
+  // Only column mode is supported now
+  const [mode] = useState<'column'>('column')
   const [roomsResult, setRoomsResult] = useState<any>(null)
   const [showRawRooms, setShowRawRooms] = useState(false)
   const [examOptions, setExamOptions] = useState<{ id?: string; exam_id?: string; course_code?: string; title?: string }[]>([])
@@ -329,7 +330,7 @@ export default function App() {
         return
       }
       const columnExamIds = (selectedExamIds.length ? selectedExamIds : baseExamId ? [baseExamId] : allExamIds).filter(Boolean)
-      const data = await allocateExamRooms(baseExamId, mode, mode === 'column' ? columnExamIds : undefined)
+      const data = await allocateExamRooms(baseExamId, columnExamIds)
       setRoomsResult(data)
       setShowRawRooms(false)
     } catch (e: any) {
@@ -946,60 +947,19 @@ export default function App() {
             <div>
               <h3 className="card-title">⚙️ Configuration</h3>
               <p className="help-text" style={{ margin: 0 }}>
-                Choose an exam and allocation mode, then generate a room plan.
+                Select one or more exams and generate a column-mix room plan.
               </p>
             </div>
             <div className="actions">
               <span className="badge" title="Current allocation mode">
-                {mode === 'room' ? '🏫' : mode === 'department' ? '🏛️' : mode === 'hybrid' ? '🧩' : '🧱'} {mode}
+                🧱 column
               </span>
             </div>
           </div>
 
           <div className="config-grid">
             <div className="form-row">
-              <label>Exam:</label>
-              {examOptions.length ? (
-                <select
-                  value={examId}
-                  onChange={(e) => {
-                    const val = e.target.value
-                    setExamId(val)
-                    if (mode !== 'column') setSelectedExamIds([val])
-                  }}
-                  className="input"
-                >
-                  {examOptions.map((ex) => {
-                    const val = (ex.id || ex.exam_id || '').toString()
-                    const title = (ex.title || '').toString().trim()
-                    const shortTitle = title.length > 38 ? `${title.slice(0, 35)}…` : title
-                    const label = `${val} • ${(ex.course_code || '').toString().trim()} ${shortTitle}`.trim()
-                    return (
-                      <option key={val} value={val} title={`${val} • ${(ex.course_code || '').toString().trim()} ${title}`.trim()}>
-                        {label}
-                      </option>
-                    )
-                  })}
-                </select>
-              ) : (
-                <input value={examId} onChange={(e) => setExamId(e.target.value)} className="input" />
-              )}
-            </div>
-
-            <div className="form-row">
-              <label>Mode:</label>
-              <select value={mode} onChange={(e) => setMode(e.target.value as any)} className="input">
-                <option value="room">🏫 Room-based</option>
-                <option value="department">🏛️ Department-based</option>
-                <option value="hybrid">🧩 Hybrid</option>
-                <option value="column">🧱 Column mix (multi-exam)</option>
-              </select>
-            </div>
-          </div>
-
-          {mode === 'column' && (
-            <div className="form-row">
-              <label>Select exams (multi):</label>
+              <label>Exams (multi):</label>
               <div className="field-stack">
                 <select
                   multiple
@@ -1024,11 +984,11 @@ export default function App() {
                   })}
                 </select>
                 <div className="help-text" style={{ margin: 0 }}>
-                  Tip: In column mode you can allocate multiple exams together; each column stays single-exam.
+                  Tip: You can allocate multiple exams together; each column stays single-exam.
                 </div>
               </div>
             </div>
-          )}
+          </div>
 
           <div className="config-actions">
             <button onClick={runAllocateRooms} className="btn-primary" disabled={loading}>

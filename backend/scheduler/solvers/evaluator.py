@@ -7,7 +7,7 @@ from collections import defaultdict
 
 
 def _slot_day(slot_id: str) -> str:
-    # Attempt to extract a day token; for EXAM_D1_M -> D1
+    # Attempt to extract a day token from slot; for EXAM_D1_M -> D1
     if "_" in slot_id:
         parts = slot_id.split("_")
         if len(parts) > 1:
@@ -17,8 +17,9 @@ def _slot_day(slot_id: str) -> str:
 
 
 def exam_timetable_metrics(
-    chrom: Dict[str, str],
-    exams: Dict[str, dict],
+        #input/parameters
+    chrom: Dict[str, str], # exam_id -> slot_id
+    exams: Dict[str, dict],# exam_id -> exam data
 ) -> Dict[str, Any]:
     """
     Compute:
@@ -33,7 +34,7 @@ def exam_timetable_metrics(
     student_to_exams: Dict[str, List[str]] = {}
     for eid, e in exams.items():
         for sid in e["student_ids"]:
-            student_to_exams.setdefault(sid, []).append(eid)
+            student_to_exams.setdefault(sid, []).append(eid) #"STUDENT1": ["EXAM1", "EXAM3", "EXAM5"]
 
     # conflicts: same student with multiple exams in same slot
     conflicts = 0
@@ -52,15 +53,16 @@ def exam_timetable_metrics(
     for eid, slot in chrom.items():
         dep = exams[eid].get("department", "GEN")
         slot_to_deps[slot].append(dep)
-        slot_counts[slot] += 1
+        slot_counts[slot] += 1 # how many exams assigned to each slot
 
-    # dept_clashes: informational only (not penalized if student_conflicts=0)
+    # dept_clashes: informational only (not penalized if student_conflicts=0) 
+    # check no of times multiple exam of same dep in same slot
     dept_clash_count = 0
     for slot, deps in slot_to_deps.items():
         for d in set(deps):
             dept_clash_count += deps.count(d) - 1
 
-    # Encourage spreading exams across available slots.
+    # check how many slots have more than 1 exam assigned
     slot_overload = sum(max(0, count - 1) for count in slot_counts.values())
 
     return {
@@ -71,7 +73,7 @@ def exam_timetable_metrics(
     }
 
 
-def build_exam_eval_index(exams: Dict[str, dict]) -> Dict[str, Any]:
+def build_exam_eval_index(exams: Dict[str, dict]) -> Dict[str, Any]: 
     """Precompute structures reused across GA fitness evaluations."""
     student_to_exams: Dict[str, List[str]] = {}
     exam_dept: Dict[str, str] = {}
@@ -79,34 +81,37 @@ def build_exam_eval_index(exams: Dict[str, dict]) -> Dict[str, Any]:
         exam_dept[eid] = e.get("department", "GEN")
         for sid in e.get("student_ids", []):
             student_to_exams.setdefault(sid, []).append(eid)
+            #map student to their exams, exam to its department,total exam count
     return {"student_to_exams": student_to_exams, "exam_dept": exam_dept, "exam_count": len(exams)}
 
 
+#This function calculates key metrics for a given exam timetable
 def exam_timetable_metrics_indexed(chrom: Dict[str, str], index: Dict[str, Any]) -> Dict[str, Any]:
     student_to_exams: Dict[str, List[str]] = index["student_to_exams"]
     exam_dept: Dict[str, str] = index["exam_dept"]
-
-    conflicts = 0
-    same_day_conflicts = 0
+ 
+    conflicts = 0 #Counts students with overlapping exams in the same slot.
+    same_day_conflicts = 0 #Counts students with multiple exams on the same day.
     for _, eids in student_to_exams.items():
         slots = [chrom[eid] for eid in eids]
-        conflicts += len(slots) - len(set(slots))
-        days = [_slot_day(slot) for slot in slots]
-        same_day_conflicts += len(days) - len(set(days))
+        conflicts += len(slots) - len(set(slots)) #if more then 1 exam in same slot increase conflict count
+        days = [_slot_day(slot) for slot in slots]  #extract day from slot ids
+        same_day_conflicts += len(days) - len(set(days)) #if more then 1 exam in same day increase same day conflict count
 
-    slot_to_deps: Dict[str, List[str]] = defaultdict(list)
+    #for each exam get its slot and department
+    slot_to_deps: Dict[str, List[str]] = defaultdict(list)  
     slot_counts: Dict[str, int] = defaultdict(int)
     for eid, slot in chrom.items():
-        slot_to_deps[slot].append(exam_dept.get(eid, "GEN"))
-        slot_counts[slot] += 1
+        slot_to_deps[slot].append(exam_dept.get(eid, "GEN"))#get department of exam or "GEN" if not found
+        slot_counts[slot] += 1 #count how many exams assigned to each slot
 
     # dept_clashes: informational only
     dept_clash_count = 0
     for deps in slot_to_deps.values():
         for d in set(deps):
-            dept_clash_count += deps.count(d) - 1
+            dept_clash_count += deps.count(d) - 1 #count how many times multiple exam of same dep in same slot
 
-    slot_overload = sum(max(0, count - 1) for count in slot_counts.values())
+    slot_overload = sum(max(0, count - 1) for count in slot_counts.values()) #count how many slots have more than 1 exam assigned
 
     return {
         "student_conflicts": conflicts,
@@ -116,6 +121,7 @@ def exam_timetable_metrics_indexed(chrom: Dict[str, str], index: Dict[str, Any])
     }
 
 
+#This function calculates a single "fitness" score for a given exam timetable (chromosome), using precomputed index data. 
 def exam_timetable_fitness_indexed(chrom: Dict[str, str], index: Dict[str, Any]) -> float:
     m = exam_timetable_metrics_indexed(chrom, index)
     conflicts = m["student_conflicts"]
@@ -126,7 +132,7 @@ def exam_timetable_fitness_indexed(chrom: Dict[str, str], index: Dict[str, Any])
     # Same-day is soft (students prefer not having 2 exams same day but it's allowed)
     # Dept clashes are OK if different semesters (student_conflicts handles the real constraint)
     penalty = 10000.0 * conflicts + 10.0 * same_day + 1.0 * slot_overload
-    base = max(100000.0, 1000.0 * float(index.get("exam_count", 0) or 0))
+    base = max(100000.0, 1000.0 * float(index.get("exam_count", 0) or 0)) #base is the starting score from which penalties are subtracted to calculate the final fitness value.
     return max(0.0, base - penalty)
 
 

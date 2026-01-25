@@ -109,7 +109,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ---------------- Demo user store ----------------
+# ----------------  user store ----------------
 USERS = [
     {
         "email": "student@uni.edu",
@@ -235,24 +235,12 @@ def allocate_rooms(req: AllocateRoomsRequest):
         room_pool = rooms
         allocator = ExamRoomAllocator(rooms=room_pool, students=students, exams=exams)
 
-        if req.mode == "column":
-            exam_ids = req.exam_ids or [req.exam_id]
-            exam_ids = [eid for eid in exam_ids if eid in exams]
-            if not exam_ids:
-                raise HTTPException(status_code=400, detail="No valid exams for column mode")
-            allocation = allocator.allocate_column_mix(exam_ids)
-            mode_used = "column"
-        elif req.mode == "room":
-            allocation = allocator.allocate_room_based(req.exam_id)
-            mode_used = "room"
-        elif req.mode == "department":
-            allocation = allocator.allocate_department_based(req.exam_id)
-            mode_used = "department"
-        elif req.mode == "hybrid":
-            allocation = allocator.allocate_hybrid(req.exam_id)
-            mode_used = "hybrid"
-        else:
-            raise HTTPException(status_code=400, detail="Invalid mode")
+        exam_ids = req.exam_ids or [req.exam_id]
+        exam_ids = [eid for eid in exam_ids if eid in exams]
+        if not exam_ids:
+            raise HTTPException(status_code=400, detail="No valid exams for column mode")
+        allocation = allocator.allocate_column_mix(exam_ids)
+        mode_used = "column"
 
         explanation = []
         heatmap = {}

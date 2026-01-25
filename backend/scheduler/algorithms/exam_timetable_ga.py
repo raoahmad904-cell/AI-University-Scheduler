@@ -19,7 +19,7 @@ class ExamTimetableGA:
         self._student_to_exams: Dict[str, List[str]] = {}
         for eid, e in exams.items():
             for sid in e.get("student_ids", []):
-                self._student_to_exams.setdefault(sid, []).append(eid)
+                self._student_to_exams.setdefault(sid, []).append(eid) 
 
     def random_chromosome(self) -> Dict[str, str]:
         return {eid: random.choice(self.slot_ids) for eid in self.exam_ids}
@@ -33,16 +33,16 @@ class ExamTimetableGA:
     def mutate(self, chrom: Dict[str, str]) -> Dict[str, str]:
         """Smart mutation that tries to reduce same-day conflicts."""
         # Find exams causing same-day conflicts
-        student_day_exams: Dict[str, Dict[str, List[str]]] = defaultdict(lambda: defaultdict(list))
-        for sid, eids in self._student_to_exams.items():
-            for eid in eids:
-                slot = chrom[eid]
-                day = slot.split('_')[1] if '_' in slot else slot  # EXAM_D1_M -> D1
-                student_day_exams[sid][day].append(eid)
+        student_day_exams: Dict[str, Dict[str, List[str]]] = defaultdict(lambda: defaultdict(list))   
+        for sid, eids in self._student_to_exams.items():  
+            for eid in eids:  
+                slot = chrom[eid]   
+                day = slot.split('_')[1] if '_' in slot else slot   
+                student_day_exams[sid][day].append(eid) 
         
         # Find problematic exams (causing same-day conflicts)
-        problem_exams = set()
-        for sid, days in student_day_exams.items():
+        problem_exams = set() 
+        for sid, days in student_day_exams.items():  
             for day, eids in days.items():
                 if len(eids) > 1:
                     # All but one are problems
