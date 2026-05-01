@@ -690,19 +690,6 @@ pytest tests/ -v
 
 > Most limitations stem from project time constraints and a deliberate focus on making the core AI scheduling logic robust and testable before adding infrastructure complexity.
 
----
-
-## 👥 Team
-
-**BSCSev-V-C | Fall 2025 | Artificial Intelligence Project**
-
-| Name | Student ID | Backend Responsibilities | Frontend Responsibilities |
-|---|---|---|---|
-| **Ahmad Rashid** | 232385 | Exam Algorithms Specialist: `exam_room_allocator.py`, `exam_timetable_ga.py`, `evaluator.py`, `fuzzy_scorer.py`, `app.py` | UI/UX, timetable display, visualization |
-| **Maheen Fatima** | 232528 | Class Timetable & Utilities: `class_timetable_csp.py`, `csp_solver.py`, `heuristic_builder.py`, `check_constraints.py`, `compute_overload.py`, `csv_loader.py`, `loader.py` | Frontend testing, build, deployment, documentation |
-| **Fatima Yousaf** | 232388 | Lab Timetable & Integration: `lab_timetable_csp.py`, `ga_optimizer.py`, `cli.py`, `constraints.py`, `schemas.py` | API calls, data fetching, auth/session management |
-
----
 
 ## 📚 References
 
@@ -727,6 +714,6 @@ This project is developed for academic purposes as part of a BSc Computer Scienc
 
 **⭐ If you found this project helpful, please star the repository!**
 
-[![GitHub](https://img.shields.io/badge/GitHub-raoahmadgithub-181717?style=for-the-badge&logo=github)](https://github.com/raoahmadgithub?tab=repositories)
+[![GitHub](https://img.shields.io/badge/GitHub-raoahmad904github-181717?style=for-the-badge&logo=github)](https://github.com/raoahmad904github?tab=repositories)
 
 </div>
